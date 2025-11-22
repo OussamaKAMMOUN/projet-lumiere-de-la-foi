@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lumière de la foi est une boutique charmante et unique qui offre une sélection soigneusement choisie d'articles liés à la spiritualité et à la foi. Lorsque vous pénétrez dans cet espace paisible, vous êtes accueilli par une atmosphère empreinte de sérénité et de chaleur.">
+    <title>LUMIÈRE DE LA FOI - CONFIRMATION DE L'ACHAT</title>
+    <link rel="icon" type="image/png" href="images/LGL.png">
+    <link rel="stylesheet" href="style/pageaccueil.css">
+    <link rel="stylesheet" href="style/formdachat.css">
+</head>
+<body>
+
+    <header class="classheader">
+        <a href="apropos.html">
+            <img id="img1" src="images/LGL.png" title="Lumière de la foi" alt="logo de la boutique">
+        </a>
+        <nav>
+            <ul>
+                <li title="Accéder à la page d'accueil">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li title="Accéder à la page à propos">
+                    <a href="apropos.html">À propos</a>
+                </li>
+                <li title="Accéder à la page des produits">
+                    <a href="produits.html">Produits</a>
+                </li>
+                <li title="Accéder à la page de forum">
+                    <a href="forum.html">Forum</a>
+                </li>
+                <li title="Accéder à la page de contact">
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="supportepalestine">
+            <a title="Palestine" href="https://www.ledevoir.com/monde/moyen-orient/801384/pres-10-000-palestiniens-morts-frappes-israel-gaza-selon-hamas">
+                <img id="photopalestine" src="images/palestine.jpg" alt="palestine">
+            </a>  
+            <div class="p3p">
+                <p class="supporte">Cette boutique</p>
+                <p class="supporte">soutient</p>
+                <p class="supporte">la Palestine</p>
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <form method="post">
+        <fieldset class="BIGFIELD">
+            <legend class="LEGENDACHAT">Bon de Commande de Produit</legend>
+            <label aria-label="Nom et Prénom" class="LABELACHATMNOM" for="nomf">Nom</label>
+            <input required class="INPUTACHATMPRENOMC" type="text" placeholder="Ecrire votre Prénom" name="first name" id="nomf">
+            <input required class="INPUTACHATMNOMC" type="text" placeholder="Ecrire votre Nom de Famille" name="last name">
+            <br><br>
+            <label aria-label="Adresse e-mail" class="LABELACHATMNOM" for="Emailf">E-mail</label>
+            <input required type="email" placeholder="Ecrire votre Addresse E-mail" name="email" id="Emailf">
+            <br>
+            <small class="smallexample">Format attendu : exemple@exemple.com</small>
+            <br>
+            <small class="smallexample">Merci de saisir une numéro addresse e-mail valide</small>
+            <br>
+            <label aria-label="Numéro de Téléphone" class="LABELACHATMNOM" for="Numf">Téléphone</label>
+            <input required pattern="[+33][0-9]{11}" type="tel" placeholder="Ecrire votre Numéro de Téléphone" name="email" id="Numf">
+            <br>
+            <small class="smallexample">Format attendu : +33XXXXXXXXXX</small>
+            <br>
+            <small class="smallexample">Merci de saisir un numéro de téléphone valide</small>
+            <br><br>
+            <fieldset class="FORMACHATM"> 
+                <legend class="LEGENDACHATp">Addresse de Livraison</legend> 
+                    <label aria-label="Numéro et Rue" class="LABELACHATMNOMHORS1" for="adlivf">Numéro et Rue</label>
+                    <input required class="INPUTACHATMNOM" type="text" name="Adresse de livraison" id="adlivf" placeholder="Ecrire votre Numéro et Rue">
+                    <br>
+                    <label aria-label="Ville et Région" class="LABELACHATMNOMHORS2" for="VRf">Ville et Région</label>
+                        <select required name="Ville et Région" id="VRf">
+                            <optgroup label="Provence-Alpes-Côte d'Azur">
+                                <option value="Marseille">Marseille</option>
+                                <option value="Nice">Nice</option>
+                                <option value="Toulon">Toulon</option>
+                                <option value="Aix-en-Provence">Aix-en-Provence</option>
+                                <option value="Avignon">Avignon</option>
+                            </optgroup>
+                            <optgroup label="Auvergne-Rhône-Alpes">
+                                <option value="Lyon">Lyon</option>
+                                <option value="Grenoble">Grenoble</option>
+                                <option value="Saint-Étienne">Saint-Étienne</option>
+                                <option value="Clermont-Ferrand">Clermont-Ferrand</option>
+                                <option value="Annecy">Annecy</option>
+                            </optgroup>
+                            <optgroup label="Bourgogne-Franche-Comté">
+                                <option value="Dijon">Dijon</option>
+                                <option value="Besançon">Besançon</option>
+                                <option value="Mâcon">Mâcon</option>
+                                <option value="Nevers">Nevers</option>
+                                <option value="Belfort">Belfort</option>
+                            </optgroup>
+                            <optgroup label="Bretagne">
+                                <option value="Rennes">Rennes</option>
+                                <option value="Brest">Brest</option>
+                                <option value="Quimper">Quimper</option>
+                                <option value="Saint-Malo">Saint-Malo</option>
+                                <option value="Lorient">Lorient</option>
+                            </optgroup>
+                            <optgroup label="Centre-Val de Loire">
+                                <option value="Orléans">Orléans</option>
+                                <option value="Tours">Tours</option>
+                                <option value="Bourges">Bourges</option>
+                                <option value="Châteauroux">Châteauroux</option>
+                                <option value="Blois">Blois</option>
+                            </optgroup>
+                            <optgroup label="Corse">
+                                <option value="Ajaccio">Ajaccio</option>
+                                <option value="Bastia">Bastia</option>
+                                <option value="Calvi">Calvi</option>
+                                <option value="Porto-Vecchio">Porto-Vecchio</option>
+                                <option value="Bonifacio">Bonifacio</option>
+                            </optgroup>
+                            <optgroup label="Grand Est">
+                                <option value="Strasbourg">Strasbourg</option>
+                                <option value="Mulhouse">Mulhouse</option>
+                                <option value="Metz">Metz</option>
+                                <option value="Nancy">Nancy</option>
+                                <option value="Reims">Reims</option>
+                            </optgroup>
+                            <optgroup label="Hauts-de-France">
+                                <option value="Lille">Lille</option>
+                                <option value="Amiens">Amiens</option>
+                                <option value="Roubaix">Roubaix</option>
+                                <option value="Dunkerque">Dunkerque</option>
+                                <option value="Calais">Calais</option>
+                            </optgroup>
+                            <optgroup label="Île-de-France">
+                                <option value="Paris">Paris</option>
+                                <option value="Versailles">Versailles</option>
+                                <option value="Boulogne-Billancourt">Boulogne-Billancourt</option>
+                                <option value="Saint-Denis">Saint-Denis</option>
+                                <option value="Créteil">Créteil</option>
+                            </optgroup>
+                            <optgroup label="Normandie">
+                                <option value="Rouen">Rouen</option>
+                                <option value="Caen">Caen</option>
+                                <option value="Le Havre">Le Havre</option>
+                                <option value="Cherbourg-en-Cotentin">Cherbourg-en-Cotentin</option>
+                                <option value="Évreux">Évreux</option>
+                            </optgroup>
+                            <optgroup label="Nouvelle-Aquitaine">
+                                <option value="Bordeaux">Bordeaux</option>
+                                <option value="La Rochelle">La Rochelle</option>
+                                <option value="Limoges">Limoges</option>
+                                <option value="Pau">Pau</option>
+                                <option value="Poitiers">Poitiers</option>
+                            </optgroup>
+                            <optgroup label="Occitanie">
+                                <option value="Toulouse">Toulouse</option>
+                                <option value="Montpellier">Montpellier</option>
+                                <option value="Nîmes">Nîmes</option>
+                                <option value="Perpignan">Perpignan</option>
+                                <option value="Carcassonne">Carcassonne</option>
+                            </optgroup>
+                            <optgroup label="Pays de la Loire">
+                                <option value="Nantes">Nantes</option>
+                                <option value="Angers">Angers</option>
+                                <option value="Le Mans">Le Mans</option>
+                                <option value="Saint-Nazaire">Saint-Nazaire</option>
+                                <option value="Laval">Laval</option>
+                            </optgroup>
+                        </select>
+                    <br>
+                    <label aria-label="Code Postal" class="LABELACHATMNOMHORS3" for="CodePostal">Code Postal</label>
+                    <input required class="INPUTACHATMNOM" type="text" name="Code Postal" id="CodePostal" placeholder="Ecrire votre Code Postal" pattern="[0-9]{5}">
+                    <br>
+                    <small class="smallexamplepost">Format attendu : XXXXX</small>
+            </fieldset> 
+            <br>
+            <fieldset class="FORMACHATM"> 
+                <legend class="LEGENDACHATp">Addresse de Facturation</legend> 
+                    <label aria-label="Numé et Rue" class="LABELACHATMNOMHORS1" for="adlivfF">Numéro et Rue</label>
+                    <input required class="INPUTACHATMNOM" type="text" name="Adresse de livraisonF" id="adlivfF" placeholder="Ecrire votre Numéro et Rue">
+                    <br>
+                    <label aria-label="Ville et Région" class="LABELACHATMNOMHORS2" for="VRfF">Ville et Région</label>
+                        <select required name="Ville et Région" id="VRfF">
+                            <optgroup label="Auvergne-Rhône-Alpes">
+                                <option value="Marseille">Marseille</option>
+                                <option value="Nice">Nice</option>
+                                <option value="Toulon">Toulon</option>
+                                <option value="Aix-en-Provence">Aix-en-Provence</option>
+                                <option value="Avignon">Avignon</option>
+                            </optgroup>
+                            <optgroup label="Bourgogne-Franche-Comté">
+                                <option value="Lyon">Lyon</option>
+                                <option value="Grenoble">Grenoble</option>
+                                <option value="Saint-Étienne">Saint-Étienne</option>
+                                <option value="Clermont-Ferrand">Clermont-Ferrand</option>
+                                <option value="Annecy">Annecy</option>
+                            </optgroup>
+                            <optgroup label="Bretagne">
+                                <option value="Dijon">Dijon</option>
+                                <option value="Besançon">Besançon</option>
+                                <option value="Mâcon">Mâcon</option>
+                                <option value="Nevers">Nevers</option>
+                                <option value="Belfort">Belfort</option>
+                            </optgroup>
+                            <optgroup label="Centre-Val de Loire">
+                                <option value="Rennes">Rennes</option>
+                                <option value="Brest">Brest</option>
+                                <option value="Quimper">Quimper</option>
+                                <option value="Saint-Malo">Saint-Malo</option>
+                                <option value="Lorient">Lorient</option>
+                            </optgroup>
+                            <optgroup label="Corse">
+                                <option value="Orléans">Orléans</option>
+                                <option value="Tours">Tours</option>
+                                <option value="Bourges">Bourges</option>
+                                <option value="Châteauroux">Châteauroux</option>
+                                <option value="Blois">Blois</option>
+                            </optgroup>
+                            <optgroup label="Grand Est">
+                                <option value="Ajaccio">Ajaccio</option>
+                                <option value="Bastia">Bastia</option>
+                                <option value="Calvi">Calvi</option>
+                                <option value="Porto-Vecchio">Porto-Vecchio</option>
+                                <option value="Bonifacio">Bonifacio</option>
+                            </optgroup>
+                            <optgroup label="Hauts-de-France">
+                                <option value="Strasbourg">Strasbourg</option>
+                                <option value="Mulhouse">Mulhouse</option>
+                                <option value="Metz">Metz</option>
+                                <option value="Nancy">Nancy</option>
+                                <option value="Reims">Reims</option>
+                            </optgroup>
+                            <optgroup label="Île-de-France">
+                                <option value="Lille">Lille</option>
+                                <option value="Amiens">Amiens</option>
+                                <option value="Roubaix">Roubaix</option>
+                                <option value="Dunkerque">Dunkerque</option>
+                                <option value="Calais">Calais</option>
+                            </optgroup>
+                            <optgroup label="Normandie">
+                                <option value="Paris">Paris</option>
+                                <option value="Versailles">Versailles</option>
+                                <option value="Boulogne-Billancourt">Boulogne-Billancourt</option>
+                                <option value="Saint-Denis">Saint-Denis</option>
+                                <option value="Créteil">Créteil</option>
+                            </optgroup>
+                            <optgroup label="Nouvelle-Aquitaine">
+                                <option value="Rouen">Rouen</option>
+                                <option value="Caen">Caen</option>
+                                <option value="Le Havre">Le Havre</option>
+                                <option value="Cherbourg-en-Cotentin">Cherbourg-en-Cotentin</option>
+                                <option value="Évreux">Évreux</option>
+                            </optgroup>
+                            <optgroup label="Occitanie">
+                                <option value="Bordeaux">Bordeaux</option>
+                                <option value="La Rochelle">La Rochelle</option>
+                                <option value="Limoges">Limoges</option>
+                                <option value="Pau">Pau</option>
+                                <option value="Poitiers">Poitiers</option>
+                            </optgroup>
+                            <optgroup label="Pays de la Loire">
+                                <option value="Toulouse">Toulouse</option>
+                                <option value="Montpellier">Montpellier</option>
+                                <option value="Nîmes">Nîmes</option>
+                                <option value="Perpignan">Perpignan</option>
+                                <option value="Carcassonne">Carcassonne</option>
+                            </optgroup>
+                            <optgroup label="Provence-Alpes-Côte d'Azur">
+                                <option value="Nantes">Nantes</option>
+                                <option value="Angers">Angers</option>
+                                <option value="Le Mans">Le Mans</option>
+                                <option value="Saint-Nazaire">Saint-Nazaire</option>
+                                <option value="Laval">Laval</option>
+                            </optgroup>
+                        </select>
+                    <br>
+                    <label aria-label="Code Postal" class="LABELACHATMNOMHORS3" for="CodePostalF">Code Postal</label>
+                    <input required class="INPUTACHATMNOM" type="text" name="Code PostalF" id="CodePostalF" placeholder="Ecrire votre Code Postal" pattern="[0-9]{5}">
+                    <br>
+                    <small class="smallexamplepost">Format attendu : XXXXX</small>
+            </fieldset> 
+            <br>
+            <label aria-label="Remarques et Instructions Spéciales" class="LABELACHATMNOM" for="CommFA">Remarques et Instructions Spéciales</label>
+            <br>
+            <textarea class="TEXTAREAFORMA" name="Commentaire et Instructions" id="CommFA" placeholder="Ecrivez vos remarques ici"></textarea>
+            <center>
+                <input class="confirmer" type="submit" value="Confirmer">
+            </center>
+        </fieldset>
+    </form>
+
+
+
+    <footer class="fin">
+        <div class="contacter">
+            <p class="nomboutique">Lumière de la foi</p>
+            <div class="contactercall">
+                <img class="calphoto" src="images/calllogo.png" alt="call_us">
+                <div class="divcallus">
+                    <p title="Call us" class="callus">+33123456789</p>
+                </div>
+            </div>
+            <div class="contactermail">
+                <img class="mailphoto" src="images/maillogo.png" alt="mailus">
+                <div class="divmailus">
+                    <a title="Mail us" class="mailus" href="mailto:lumière.de.la.foi@gmail.com">lumière.de.la.foi@gmail.com</a>
+                </div>
+            </div>
+            <div class="socialmedia">
+                <div>
+                    <a title="Facebook" href="https://www.facebook.com/LumiereDeLaFoi">
+                        <img class="smfb" src="images/fblogoo.png" alt="facebook">
+                    </a>
+                    <a title="Instagram" href="https://www.instagram.com/LumiereDeLaFoi">
+                        <img class="smins" src="images/instalogo.png" alt="instagram">
+                    </a>
+                    <a title="Twitter" href="https://twitter.com/LumiereFoi">
+                        <img class="smtw" src="images/twitterlogo.png" alt="twitter">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="horaire">
+            <p class="hours">Horaires</p>
+            <div class="hor1">
+                <p class="datemf">Monday &rarr; Friday</p>
+                <p class="time">7am — 11pm</p>
+            </div>
+            <div class="hor2">
+                <p class="date">Saturday</p>
+                <p class="time">8am — 13pm</p>
+            </div>
+            <div class="hor3">
+                <p class="date">Sunday</p>
+                <p class="time">8am — 12pm</p>
+            </div>
+        </div>
+        <div class="uemail">
+            <form>
+                <p class="leumail">Abonnez-vous</p>
+                <label class="leumail">à notre newsletter</label>
+                <input required class="ieuemail" type="email" title="enter your email" placeholder="Enter your email here">
+                <input class="join" title="Rejoindre" type="submit" value="Rejoindre">
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
