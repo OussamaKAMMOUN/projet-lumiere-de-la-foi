@@ -1,0 +1,163 @@
+.sect1 {
+    width: 70%;
+    height: 700px;
+    background-color: rgb(225 194 19 );
+    align-items: center;
+    margin: auto;
+}
+
+#h1h1h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 75px;
+}
+
+.psect1 {
+    font-size: 24px;
+    width: 700px;
+    font-weight: 400;
+    color: rgb(25, 24, 24);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.pdesp {
+display: block;
+margin: -28px -25px 63px 177px ;
+}
+
+.sect2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nuit {
+    height: 550px;
+    width: 550px;
+    border-radius: 275px;
+    margin-top: 105px;
+    margin-left: 75px;
+}
+
+.nuit1 {
+    height: 550px;
+    width: 550px;
+    border-radius: 275px;
+    margin-top: 85px;
+    margin-left: 75px;
+}
+
+
+.mission {
+    display: inline-block;
+    align-items: center;
+    margin-left: -90px;
+}
+.photomission {
+    display: inline-block;
+    align-items: center;
+    margin-left: -60px;
+}
+
+.mission1 {
+    display: inline-block;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.photomission1 {
+    display: inline-block;
+    align-items: center;
+    margin-left: -60px;
+}
+
+
+.pseule1{
+    width: 721px;
+    height: 500px;
+    border-radius: 250px;
+}
+
+#h2h2h2h {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 75px;
+    color: rgb(255 255 255 );
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#h2h2h2h11 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 75px;
+    color: rgb(255 255 255 );
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.pseule {
+    font-size: 25px;
+    font-weight: 550;
+    color: rgb(225 194 19 );
+    text-align: center;
+    margin: -38px 67px 125px 146px ;
+    width: auto;
+}
+
+.sect3 {
+    width: 90%;
+    height: 700px;
+    background-color: rgb(225 194 19 );
+    align-items: center;
+    margin: auto;
+}
+
+.sect3 h1 {
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+
+dt {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+dd {
+    margin-top: -15px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 1200px;
+    text-align: justify;
+}
+
+.découvert {
+    width: 275px;
+    height: 85px;
+    background-color: rgb(225 194 19 ) ;
+    color: black;
+    border: 1.5px solid black;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.découvert:hover{
+    background-color: rgb(0 0 0 ) ;
+    color: rgb(225 194 19 );
+    border: 2.5px solid rgb(225 194 19 );
+    border-radius:33px ;
+}

@@ -1,0 +1,166 @@
+.FORMACHATM {
+    height: 242px;
+    width: 652px;
+    margin: auto;
+    border: 4px solid white;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.BIGFIELD {
+    height: 1289px;
+    width: 800px;
+    margin: auto;
+    border: 2.5px solid white;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.LEGENDACHAT {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.LEGENDACHATp {
+    color: white;
+    font-size: 38px;
+}
+
+
+.LABELACHATMNOM {
+    font-size: 30px;
+    color: white;
+}
+
+.LABELACHATMNOMHORS1 {
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+}
+
+.LABELACHATMNOMHORS2 {
+    font-size: 30px;
+    color: white;
+    margin-right: 25px;
+}
+.LABELACHATMNOMHORS3 {
+    font-size: 30px;
+    color: white;
+    margin-right: 54px;
+}
+
+#adlivf , #adlivfF , #CodePostal , #CodePostalF , #VRfF , #VRf {
+    width: 350px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border: 1.5px solid black;
+    border-radius: 12px;
+    font-size: 22px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+}
+
+
+#VRfF , #VRf {
+    cursor: pointer;
+}
+
+.INPUTACHATMPRENOMC {
+    width: 259px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 87px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+
+.INPUTACHATMNOMC {
+    width: 267px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+
+
+#Numf {
+    width: 540px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+
+
+#Emailf {
+    width: 540px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 65px;
+    border-radius: 9px;
+}
+
+.TEXTAREAFORMA {
+    font-size: 22px;
+    width: 652px;
+    height: 209px;
+    padding-left: 10px;
+    padding-top: 10px;
+    resize: none;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.FORMACHATM {
+    border-radius: 15px;
+    border: 2.5px solid white;
+}
+
+
+.smallexample {
+    color: white;
+    font-size: 17.5px;
+    margin-left: 156px;
+}
+
+.smallexamplepost {
+    color: white;
+    font-size: 17.5px;
+    margin-left: 221px;
+}
+
+.confirmer {
+    margin-top: 8px;
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 23px;
+}
+
+.confirmer:hover {
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 2.5px solid white;
+    border-radius: 17px;
+    cursor: pointer;
+}

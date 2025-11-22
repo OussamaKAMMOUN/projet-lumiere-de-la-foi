@@ -1,0 +1,375 @@
+.sect2IS{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nuitIS {
+    height: 550px;
+    width: 550px;
+    border-radius: 275px;
+    margin-top: 120px;
+    margin-left: 75px;
+    margin-right: 65px;
+}
+
+.nuit1IS {
+    height: 550px;
+    width: 550px;
+    border-radius: 275px;
+    margin-top: 95px;
+    margin-left: 160px;
+}
+
+.missionIS {
+    display: inline-block;
+    align-items: center;
+    margin-left: -55px;
+    margin-top: -20px;
+}
+.photomissionIS {
+    display: inline-block;
+    align-items: center;
+    margin-left: -108px;
+}
+
+.mission1IS {
+    display: inline-block;
+    align-items: center;
+    margin-left: -90px;
+}
+
+.photomission1IS {
+    display: inline-block;
+    align-items: center;
+    margin-left: -60px;
+}
+
+.pseule1IS {
+    width: 721px;
+    height: 500px;
+    border-radius: 250px;
+}
+
+#h2h2h2hIS {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 135px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 60px;
+    width: 870px;
+}
+
+#h2h2h2hIS22 {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 135px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 60px;
+    width: 870px;
+}
+
+.pseuleIS {
+    font-size: 26.5px;
+    font-weight: 550;
+    color: rgb(225 194 19 );
+    text-align: center;
+    margin: -25px -70px 131px 230px;
+    width: 550px;
+}
+
+hr {
+    border: 1.5px solid rgb(25 25 25 );
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -25px;
+}
+
+.hrs {
+    border: 1.5px solid rgb(25 25 25 );
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -75px;
+}
+
+.hrss {
+    border: 1.5px solid rgb(25 25 25 );
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -160px;
+}
+
+.hrnew {
+    border: 1.5px solid rgb(25 25 25 );
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.istik {
+    display: flex;
+}
+
+#hala {
+    color: white;
+    width: 110%;
+    text-align:start;
+    font-size: 60px;
+    text-transform: capitalize;
+    line-height: 87px;
+}
+
+h2{
+    color:rgb(225 194 19 );
+    font-size: 45px;
+    padding-top: 80px;
+    padding-left: 145px;
+}
+
+#bien {
+    color: rgb(225 194 19 );
+    font-size: 28px;
+    padding-top: 0px;
+    width: 750px;
+    line-height: 36px;
+    padding-right: 166px;
+    text-align: justify;
+    margin-top: -35px;
+}
+
+.divis {
+    display: block;
+}
+
+.pilierst {
+    font-size: 45px;
+    color: white;
+    margin-bottom: -50px;
+    text-align: center;
+}
+
+.piliers5 {
+    font-size: 40px;
+    color: white;
+    padding-left: 80px;
+}
+
+.pil1 {
+    display: flex;
+}
+
+.piltitre {
+    color: white;
+    font-size: 32px;
+}
+
+.pilparag1 {
+    color: rgb(225 194 19 );
+    font-size: 28px;
+    padding-left: 80px;
+    padding-right: 167px;
+    padding-top: 0px;
+    line-height: 40px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+
+.pil1ph  {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-top: 87px;
+    margin-right: 68px;
+}
+
+.pil1phex  {
+    width: 500px;
+    height: 500px;
+    margin-right: 90px;
+    margin-top: 55px;
+}
+
+.pil1phex21  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 1;
+    right: -610px;
+    top: 205px;
+}
+
+.pil1phex22  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 2;
+    left: 140px;
+    top: -5px;
+}
+
+.pil1phex23  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 3;
+    right: -350px;
+    top: 205px;
+}
+
+.pil1phex210  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 1;
+    right: -610px;
+    top: 224px;
+}
+
+.pil1phex220  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 2;
+    left: 140px;
+    top: 14px;
+}
+
+.pil1phex230  {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 3;
+    right: -350px;
+    top: 224px;
+}
+
+.pil1phex2100  {
+    width: 390px;
+    height: 390px;
+    border-radius: 195px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 2;
+    right: -625px;
+    top: 120px;
+}
+
+.pil1phex2300  {
+    width: 390px;
+    height: 390px;
+    border-radius: 195px;
+    margin-top: 87px;
+    margin-right: 68px;
+    position: absolute;
+    z-index: 1;
+    right: -365px;
+    top: 120px;
+}
+
+.pilparag2 {
+    color: rgb(225 194 19 );
+    font-size: 28px;
+    padding-left: 80px;
+    padding-right: 167px;
+    padding-top: 0px;
+    line-height: 40px;
+    padding-bottom: 35px;
+    text-align: justify;
+}
+
+.pilparag3 {
+    color: rgb(225 194 19 );
+    font-size: 28px;
+    padding-left: 80px;
+    padding-right: 167px;
+    padding-top: 0px;
+    line-height: 40px;
+    padding-bottom: 35px;
+    width: 880px;
+    text-align: justify;
+}
+
+.pilparag33 {
+    color: rgb(225 194 19 );
+    font-size: 28px;
+    padding-left: 80px;
+    padding-right: 167px;
+    padding-top: 0px;
+    line-height: 40px;
+    padding-bottom: 35px;
+    width: 880px;
+    text-align: justify;
+}
+
+.pil3photo {
+    display: flex;
+    position: relative;
+}
+
+.sectfin {
+    width: 70%;
+    height: 775px;
+    background-color: rgb(8 8 8);
+    align-items: center;
+    margin: auto;
+}
+
+#hfin {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 70px;
+    color: white;
+}
+
+.psectfin {
+    font-size: 26px;
+    width: 700px;
+    font-weight: 400;
+    color: rgb(225, 194, 19);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.psectfinun {
+    font-size: 29px;
+    width: 700px;
+    font-weight: 400;
+    color: rgb(255 255 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: -5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pdespfin {
+margin: -38px -25px 63px 177px ;
+}

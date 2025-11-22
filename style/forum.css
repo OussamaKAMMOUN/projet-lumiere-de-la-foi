@@ -1,0 +1,131 @@
+.toutforum {
+    position: relative;
+    text-align: center;
+}
+
+.forumphoto {
+    width: 100%;
+    border-radius: 100px;
+    margin-top: 12px;
+}
+
+
+.forumtexte {
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    color: white;
+    width: 1100px;
+    text-align: justify;
+}
+
+.forumtextetit {
+    font-size: 72px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(225, 194, 19);
+    font-weight: 700;
+    width: 888px;
+    -webkit-text-stroke: 2.2px black;
+}
+
+
+
+.sect2FORUM{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nuitFORUM {
+    height: 550px;
+    width: 550px;
+    border-radius: 15px;
+    margin-top: 105px;
+    margin-left: 10px;
+}
+
+.missionFORUM {
+    display: inline-block;
+    align-items: center;
+    margin-left: -120px;
+}
+.photomissionFORUM {
+    display: inline-block;
+    align-items: center;
+    margin-left: -60px;
+}
+
+.pseule1FORUM{
+    width: 721px;
+    height: 500px;
+    border-radius: 250px;
+}
+
+#h2h2h2hFORUM {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-top: 75px;
+    color: rgb(255 255 255 );
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.pseuleFORUM {
+    font-size: 28px;
+    font-weight: 550;
+    color: rgb(225 194 19 );
+    text-align: justify;
+    margin: -38px -55px 125px 176px;
+    width: auto;
+}
+
+.sect3forum{
+    width: 90%;
+    height: 740px;
+    background-color: rgb(225 194 19 );
+    align-items: center;
+    margin: auto;
+    margin-top: -55px;
+    margin-bottom:100px;
+}
+.ddd {
+    margin-top: -15px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 28px;
+    width: 1200px;
+    text-align: justify;
+}
+
+.hhh1 {
+    font-size: 50px;
+    padding: 65px;
+    padding-left: 80px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.psectfinFORUM {
+    font-size: 32px;
+    width: 700px;
+    font-weight: 400;
+    color: rgb(225, 194, 19);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 38px;
+    text-align: justify;
+}
+
+.psectfinFORUM a {
+    color: rgb(225 194 19 ); 
+    font-weight: bold; 
+    text-decoration: underline; 
+    font-size: 28px;
+}

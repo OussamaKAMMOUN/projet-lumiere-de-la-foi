@@ -1,0 +1,461 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    width: 1500px;
+    background-color: rgb(8, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid rgb(39, 36, 36);
+}
+
+#img1 {
+    width: 130px;
+    height: 125px;
+    margin: 22px 15px 20px 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+nav {
+    width: 100%;
+    margin-left: -17px;
+}
+
+nav ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav a:hover {
+    border: 2.5px solid white;
+    border-radius: 2px;
+}
+
+
+header nav li a {
+    display: block;
+    padding: 44px;
+    margin-top: 2px;
+}
+
+
+.supportepalestine {
+    display: flex;
+    margin-left: 40px;
+}
+
+#photopalestine {
+    margin: 20px 10px 50px 5px;
+    width: 180px;
+    height: 100px;
+    display: inline-block;
+}
+
+.p3p {
+    display: inline;
+}
+
+.supporte {
+    color: white;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 800;
+    width: 150px;
+    text-align: center;
+}
+
+.sec1 {
+    margin-top: 10px;
+}
+
+#Bienvenue {
+    width: 1500px;
+}
+
+.sec2 {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.about {
+    width: 800px;
+    height: 700px;
+    margin-left: 130px;
+    background-color: rgb(225, 194, 19);
+    position: relative;
+    z-index: 1;
+}
+
+.photoabout {
+    position: relative;
+    z-index: 2;
+    right: 130px;
+    top: 50px;
+}
+
+#hassan_mosque {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 65px;
+    padding-left: 80px;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+#àpropos {
+    color: black;
+    padding-left: 70px;
+    width: 580px;
+    height: 425px;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+#savplus {
+    position: absolute;
+    left: 70px;
+    bottom: 75px;
+    border-radius: 28px;
+    font-size: 24px;
+    background-color: black;
+    color: rgb(225, 194, 19);
+    border: none;
+    width: 180px;
+    height: 50px;
+}
+
+#savplus:hover {
+    border: 2.5px solid black;
+    color: black;
+    background-color: rgb(225, 194, 19);
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: 25px;
+    width: 185px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.products {
+    display: inline;
+}
+
+#produits {
+    width: 1000px;
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 40px 110px;
+    text-transform: uppercase;
+}
+
+.p123 {
+    display: inline-block;
+    width: 33%;
+    height: 50%;
+    margin: 0px;
+}
+
+.imgaccc {
+    width: 350px;
+    height: 390px;
+    margin-bottom: 10px;
+    padding-top: 33px;
+    padding-bottom: -5px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.imgaccc:hover {
+    -ms-transform: scale(1.18);
+    -webkit-transfrom: scale(1.18);
+    transform: scale(1.18);
+    border-radius: 5px;
+}
+
+
+.article {
+    font-size: 23px;
+    font-weight: 550;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.reserver {
+    border: none;
+    color: black;
+    background-color: white;
+    width: 190px;
+    height: 60px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 6px;
+    border-radius: 5px;
+}
+
+.reserver:hover {
+    border: 2.5px solid white;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(225, 194, 19);
+    display: flex;
+    justify-content: space-evenly;
+    height: 420px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.nomboutique {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.calphoto {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.callus {
+    display: inline;
+    font-size: 22px;
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+.divcallus {
+    display: inline;
+    padding-top: 20px;
+}
+
+.contactercall {
+    display: inline-block;
+    position: relative;
+    margin-left: 28px;
+}
+
+.mailphoto {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.mailus {
+    display: inline;
+    font-size: 22px;
+    padding: 0px;
+    position: absolute;
+    top: 33px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divmailus {
+    display: inline;
+    padding-top: 20px;
+}
+
+.contacter {
+    margin-left: -75px;
+}
+
+.contactermail {
+    display: block;
+    position: relative;
+    margin-left: 28px;
+}
+
+.smfb {
+    height: 50px;
+    width: 55px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-bottom: 7px;
+}
+
+.smins {
+    height: 65px;
+    width: 65px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.smtw {
+    height: 58px;
+    width: 60px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+.socialmedia {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.horaire {
+    width: 300px;
+    height: 180px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.hours {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.date {
+    color: black;
+    width: 250px;
+    font-size: 22px;
+    margin-bottom: -20px;
+    margin-left: 28px;
+}
+
+.datemf {
+    color: black;
+    width: 250px;
+    font-size: 22px;
+    margin-bottom: -20px;
+    margin-left: 32px;
+}
+
+.time {
+    color: black;
+    width: 250px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.hor1,
+.hor2,
+.hor3 {
+    margin-top: 48px;
+    margin-bottom: 20px
+}
+
+.uemail {
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    margin-top: 55px;
+    line-height: 35px;
+}
+
+.leumail {
+    font-size: xx-large;
+    color: black;
+    margin: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    margin-top: -5px;
+    margin-bottom: 12px;
+}
+
+.ieuemail {
+    width: 395px;
+    height: 60px;
+    color: black;
+    border: 2.3px solid black;
+    background-color: rgb(225, 194, 19);
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+.ieuemail:active {
+    border: 2.3px solid black;
+}
+
+.join {
+    width: 110px;
+    height: 65px;
+    border: none;
+    background-color: black;
+    font-weight: 700;
+    font-size: large;
+    color: rgb(225, 194, 19);
+    cursor: pointer;
+}
+
+.join:hover {
+    color: black;
+    background-color: rgb(225, 194, 19);
+    border: 2.7px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: black;
+}
+
+
+
+/*
+ marquee {
+    font-size: 30px;
+    color: white;
+    background-color: rgb( 8 8 8 );
+    padding: 4px;
+}  Je ne l'ai pas utilisé parce que j'ai constaté qu'elle est en cours d'éradication*/
